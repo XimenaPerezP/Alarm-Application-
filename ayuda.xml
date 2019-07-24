@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#015a78"
+    tools:context=".Ayuda_Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="103dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:layout_toStartOf="@+id/button"
+        app:srcCompat="@drawable/ayuda2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="209dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="84dp"
+        android:text="Información de la aplicación móvil"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-274dp"
+        android:text="Cautela Smart Alarm es un sistema de seguridad y detección de gas que proporciona seguridad al hogar. " />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="274dp"
+        android:text="El sistema de seguridad funciona cuando detecta la presencia de un intruso, toma una imagen, la envia al correo electrónico del propietario y envia un mensaje de texto alertando el ingreso." />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="El sistema de detección de gas alerta cuando hay una fuga de gas en la propiedad, envia un mensaje de texto y muestra un mensaje de posible incendio si la temperatura es mayor de 35°C." />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:text="Ambos sistemas son controlados por la aplicación móvil que permite activar/desactivar los sistemas de forma remota y cambiar la contraseña, palabra clave y correo electrónico.  " />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:text="Cautela Smart Alarm es un sistema de seguridad y detección de gas facil de utilizar, intuitivo y económico." />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="117dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/cautela2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"
+        android:background="#012a39"
+        android:text="Regresar"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
